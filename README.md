@@ -1,11 +1,16 @@
 # Azure Data Engineering Project – E-commerce Analytics Pipeline
 🚀 Overview
-This project demonstrates a full-scale end-to-end cloud data pipeline for processing and analyzing E-commerce data using Microsoft Azure services. The primary goal was to ingest raw data from external APIs, transform and model it using industry-standard tools, and finally visualize insights with Power BI for business analysis.
+This project demonstrates a full-scale end-to-end cloud data pipeline for processing and analyzing E-commerce data using Microsoft Azure services. The primary goal was to ingest raw data from external APIs, transform it using industry-standard tools, and finally visualize insights with Power BI for business analysis.
 
 ## Architechture Diagram
 <img width="1459" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/b501f776-928b-4546-b574-3c60e4332930" />
 
 ## 🏗️ Architecture & Tools Used
+🔹 Azure Data Factory for orchestration
+🔹 Azure Data Lake for storage
+🔹 Azure Synapse Analytics for
+
+
 🔹 Ingestion Layer (Bronze)
 Azure Data Factory: Designed dynamic Copy Activity pipelines to fetch multiple data files from REST APIs.
 
@@ -37,7 +42,7 @@ Azure Synapse Analytics:
 
 Created external tables and views on top of Parquet files.
 
-Utilized T-SQL to build analytics-ready data models and perform aggregations.
+Utilized SQL to build analytics-ready data models and perform aggregations.
 
 <img width="468" alt="image" src="https://github.com/user-attachments/assets/1dd01eb9-11ee-4189-b815-3b1cf62efc87" />
 
@@ -65,19 +70,6 @@ Gained expertise in querying large datasets using SQL in Synapse.
 
 Overcame real-world issues like API throttling, schema mismatches, and optimizing joins for performance.
 
-## 📊 Project Folder Structure
-graphql
-Copy
-Edit
-├── notebooks/
-│   └── transformation_jobs.ipynb    # PySpark notebooks in Databricks
-├── pipelines/
-│   └── adf_pipeline.json            # ADF pipeline definitions (ARM templates)
-├── sql/
-│   └── synapse_views.sql            # SQL scripts for Synapse Analytics
-├── dashboards/
-│   └── powerbi_report.pbix          # Power BI dashboards
-├── README.md
 
 ## 💻 Technologies Used
 Azure Data Factory
