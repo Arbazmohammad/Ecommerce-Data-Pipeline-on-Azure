@@ -16,12 +16,12 @@ Azure Data Factory: Designed dynamic Copy Activity pipelines to fetch multiple d
 
 Azure Data Lake Storage (Gen2): Used as a data lake with a layered structure (Bronze/Silver/Gold).
 
-<img width="468" alt="image" src="https://github.com/user-attachments/assets/76e461a8-2415-47ce-910a-b94906b58e9f" />
+<img width="1459" alt="image" src="https://github.com/user-attachments/assets/76e461a8-2415-47ce-910a-b94906b58e9f" />
 
 
 Ingested raw JSON/CSV files directly into the Bronze layer for initial storage.
 
-<img width="468" alt="image" src="https://github.com/user-attachments/assets/a03f305b-00d2-4185-80b2-33f6abbe6dfc" />
+<img width="1459" alt="image" src="https://github.com/user-attachments/assets/a03f305b-00d2-4185-80b2-33f6abbe6dfc" />
 
 🔹 Transformation Layer (Silver)
 Azure Databricks: Processed and cleaned the raw data using PySpark, performing:
@@ -34,7 +34,7 @@ Data enrichment and joins
 
 Transformed data stored as Parquet files in the Silver layer for optimal querying.
 
-<img width="468" alt="image" src="https://github.com/user-attachments/assets/227c2f78-29c2-4845-a540-b8ac72b05277" />
+<img width="1459" alt="image" src="https://github.com/user-attachments/assets/227c2f78-29c2-4845-a540-b8ac72b05277" />
 
 
 🔹 Modeling & Serving Layer (Gold)
@@ -44,7 +44,7 @@ Created external tables and views on top of Parquet files.
 
 Utilized SQL to build analytics-ready data models and perform aggregations.
 
-<img width="468" alt="image" src="https://github.com/user-attachments/assets/1dd01eb9-11ee-4189-b815-3b1cf62efc87" />
+<img width="1459" alt="image" src="https://github.com/user-attachments/assets/1dd01eb9-11ee-4189-b815-3b1cf62efc87" />
 
 
 🔹 Visualization
@@ -52,7 +52,7 @@ Power BI: Connected directly to Synapse external tables and developed interactiv
 
 Sales trends
 
-<img width="434" alt="image" src="https://github.com/user-attachments/assets/672ea22c-e5f1-4f04-ad23-1c8aec35bbc2" />
+<img width="1459" alt="image" src="https://github.com/user-attachments/assets/672ea22c-e5f1-4f04-ad23-1c8aec35bbc2" />
 
 
 Customer segmentation
